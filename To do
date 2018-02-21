@@ -36,6 +36,8 @@ Make it something like
 	        government = republic
 	        flag = default
 		  }
+	
+	set_country_flag = CAL_Flag_Changed
 	  }
 
 
@@ -44,4 +46,4 @@ Make it something like
 	  }
 }
 
-Then add a decision to revert the change, just simply reverse the code used gov = repub flag = repub or something
+Then add a decision to revert the change, just simply reverse the code used gov = repub flag = repub or something, have a potential check for the country flag added in the flag change
