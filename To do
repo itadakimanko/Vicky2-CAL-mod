@@ -1,0 +1,17 @@
+Merge with offline mod files (event files and localization should be imported from offline files)
+
+Add localization to Hawaii and Sonara coreing events
+
+Add localization to Capital change event
+
+Increase unit name variety, add all states, important mountians, important cities, important people?
+
+Add San Fransisco Earthquake event - April 18th 1906 - Lose money & some pop, maybe weighted chance to lose 2%, 5%, or 10% of province of San Fransisco
+
+Add Eurika RGO event, have option to set up lumber camps in the Eurika foothills, for flavor maybe spend some money to set up logging camps in the foothils, or choose to stay a coastal fishing community?
+
+Add Gold Rush event to provid 88 RGO gold event, unsure why Paradox decided to not have gold rush province modifyer apply to this gold rush event? figure out how to block eventID 1101 from fireing for prov 88, and create new event from the ground up, or have a second event fire to add gold rush modifyer
+
+Research Californian history for more flavour events
+
+Go over Frymonmons code to see if theres any events I'd like to remove
