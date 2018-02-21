@@ -17,3 +17,29 @@ Research Californian history for more flavour events
 Go over Frymonmons code to see if theres any events I'd like to remove
 
 Add new flags - If permission is given, use communist flag from reddit as standard communist flag, and add a desicion to adopt a simplified flag after vexicologists start complaning, make it optional if possible?
+
+See GER country file for flag change info, maybe use this as the code example?
+
+govt_flag = 
+{
+	government = hms_government
+	flag = presidential_dictatorship
+}
+
+Make it something like 
+
+  option = {
+	  	name = "EVTOPTA#######"     # = event number     Name = Appease the Vexicologists
+		  add_country_modifier = {
+			  name = Apease the vexicoligysts
+        govt_flag = {
+	        government = republic
+	        flag = default
+		  }
+	  }
+
+
+  option = {
+	  	name = "EVTOPTA#######"     # = different event number   Name = Ignore the Vexicologists
+	  }
+}
