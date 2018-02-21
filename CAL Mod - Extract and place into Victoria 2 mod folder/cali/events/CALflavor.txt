@@ -1,0 +1,57 @@
+province_event = {
+	
+	id = 1311601			# Iron Mountian Mine
+		
+	trigger = {
+		year = 1860
+		province_id = 86			# Sacramento
+		not = { trade_goods = iron }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	
+	}
+	
+	title = "EVTNAME1311601"
+	desc = "EVTDESC1311601"
+	picture = "goldrush"
+
+	option = {
+		name = "EVTOPTA1311601"
+		trade_goods = iron
+		add_province_modifier = {
+			name = the_homestead_act
+			duration = 1825
+		}
+	}
+}
+
+province_event = {
+
+	id = 1311602			# Mount Diablo Coalfield
+		
+	trigger = {
+		year = 1825
+		province_id = 84			# San Fransisco
+		not = { trade_goods = coal }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	
+	}
+	
+	title = "EVTNAME1311602"
+	desc = "EVTDESC1311602"
+	picture = "goldrush"
+
+	option = {
+		name = "EVTOPTA1311602"
+		trade_goods = coal
+		add_province_modifier = {
+			name = the_homestead_act
+			duration = 3650
+		}
+	}
+}
