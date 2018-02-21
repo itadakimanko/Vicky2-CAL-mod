@@ -141,29 +141,29 @@ party = {
 	war_policy = jingoism
 }
 
-unit_names = {
+unit_names = {			# old name list - California "John Fr√©mont" "The Bear and Star" "William Ide" "San Francisco" "Los Angeles" Monterey Olompali Sacramento Sonoma
 	dreadnought = {
-		California "John FrÈmont" "The Bear and Star" "William Ide" "San Francisco" "Los Angeles" Monterey Olompali Sacramento Sonoma 
+		"CRS California" "CRS John Fr√©mont" "CRS The Bear and Star" "CRS William Ide" "CRS San Francisco" "CRS Los Angeles" "CRS Monterey" "CRS Olompali" "CRS Sacramento" "CRS Sonoma" "CRS Frymon" 
 		
 	}
 	ironclad = {
-		California "John FrÈmont" "The Bear and Star" "William Ide" "San Francisco" "Los Angeles" Monterey Olompali Sacramento Sonoma 
+		"CRS California" "CRS John Fr√©mont" "CRS The Bear and Star" "CRS William Ide" "CRS San Francisco" "CRS Los Angeles" "CRS Monterey" "CRS Olompali" "CRS Sacramento" "CRS Sonoma" "CRS Frymon"  
 		
 	}
 	manowar = {
-		California "John FrÈmont" "The Bear and Star" "William Ide" "San Francisco" "Los Angeles" Monterey Olompali Sacramento Sonoma 
+		"CRS California" "CRS John Fr√©mont" "CRS The Bear and Star" "CRS William Ide" "CRS San Francisco" "CRS Los Angeles" "CRS Monterey" "CRS Olompali" "CRS Sacramento" "CRS Sonoma" "CRS Frymon"   
 		
 	}
 	cruiser = {
-		California "John FrÈmont" "The Bear and Star" "William Ide" "San Francisco" "Los Angeles" Monterey Olompali Sacramento Sonoma 	
+		"CRS California" "CRS John Fr√©mont" "CRS The Bear and Star" "CRS William Ide" "CRS San Francisco" "CRS Los Angeles" "CRS Monterey" "CRS Olompali" "CRS Sacramento" "CRS Sonoma" "CRS Frymon"  	
 		
 	}
 	frigate = {
-		California "John FrÈmont" "The Bear and Star" "William Ide" "San Francisco" "Los Angeles" Monterey Olompali Sacramento Sonoma 
+		"CRS California" "CRS John Fr√©mont" "CRS The Bear and Star" "CRS William Ide" "CRS San Francisco" "CRS Los Angeles" "CRS Monterey" "CRS Olompali" "CRS Sacramento" "CRS Sonoma" "CRS Frymon" 
 		
 	}
 	monitor = {
-		California "John FrÈmont" "The Bear and Star" "William Ide" "San Francisco" "Los Angeles" Monterey Olompali Sacramento Sonoma 
+		"CRS California" "CRS John Fr√©mont" "CRS The Bear and Star" "CRS William Ide" "CRS San Francisco" "CRS Los Angeles" "CRS Monterey" "CRS Olompali" "CRS Sacramento" "CRS Sonoma" "CRS Frymon" 
 		
 	}
 	clipper_transport = {
@@ -173,6 +173,6 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		California "John FrÈmont" "The Bear and Star" "William Ide" "San Francisco" "Los Angeles" Monterey Olompali Sacramento Sonoma 
+		"CRS California" "CRS John Fr√©mont" "CRS The Bear and Star" "CRS William Ide" "CRS San Francisco" "CRS Los Angeles" "CRS Monterey" "CRS Olompali" "CRS Sacramento" "CRS Sonoma" "CRS Frymon" 
 	}
 }
