@@ -1,0 +1,3 @@
+owner = CALcontroller = CALadd_core = CALadd_core = DES
+trade_goods = grain
+life_rating = 40naval_base = 1fort = 11861.1.1 = {owner = USAcontroller = USAadd_core = USA}

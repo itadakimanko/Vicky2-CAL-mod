@@ -1,0 +1,111 @@
+political_decisions = {
+	CAL_Integrate_Hawaii = {
+		potential = {
+			tag = CAL
+			owns = 658
+			NOT = {
+				has_country_flag = CAL_Hawaii_Integrated
+			}
+		}
+		
+		allow = {
+			tag = CAL
+			owns = 658
+		}
+		
+		effect = {
+			658 = {
+				add_core = CAL
+				remove_core = HAW
+			}
+			
+		set_country_flag = CAL_Hawaii_Integrated
+		}
+		
+		ai_will do = {
+			factor = 1
+		}
+		
+	}
+	
+	CAL_Integrate_Sonora = {
+		potential = {
+			tag = CAL
+			owns = 2137
+			owns = 2138
+			owns = 2139
+			owns = 2140
+			owns = 2141
+			NOT = {
+				has_country_flag = CAL_Sonora_Integrated
+			}
+		}
+		
+		allow = {
+			tag = CAL
+			owns = 2137
+			owns = 2138
+			owns = 2139
+			owns = 2140
+			owns = 2141
+		}
+		
+		effect = {
+			2137 = {
+				add_core = CAL
+				remove_core = MEX
+			}
+			2138 = {
+				add_core = CAL
+				remove_core = MEX
+			}
+			2139 = {
+				add_core = CAL
+				remove_core = MEX
+			}
+			2140 = {
+				add_core = CAL
+				remove_core = MEX
+			}
+			2141 = {
+				add_core = CAL
+				remove_core = MEX
+			}
+			
+		set_country_flag = CAL_Sonora_Integrated
+		}
+		
+		ai_will do = {
+			factor = 1
+		}
+		
+	}
+	
+	Cal_Move_Capital = {
+		potential = {
+			year = 1897
+			tag = CAL
+			owns = 86
+			NOT = {
+				has_country_flag = CAL_Move_Capital
+			}
+		}
+		
+		allow = {
+			year = 1897
+			tag = CAL
+			owns = 86
+		}
+		
+		effect = {
+			capital = 86
+			}
+			
+		set_country_flag = CAL_Move_Capital
+		
+		ai_will do = {
+			factor = 1
+		}
+		
+	}
+	
