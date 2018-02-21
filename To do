@@ -43,3 +43,5 @@ Make it something like
 	  	name = "EVTOPTA#######"     # = different event number   Name = Ignore the Vexicologists
 	  }
 }
+
+Then add a decision to revert the change, just simply reverse the code used gov = repub flag = repub or something
