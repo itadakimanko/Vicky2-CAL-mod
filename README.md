@@ -37,26 +37,26 @@ California Changes
 
 - New decisions for California
 
-      Integrate Hawaii
-          Upon annexing Hawaii, you can core the Provience
+      - Integrate Hawaii
+            Upon annexing Hawaii, you can core the Provience
           
-      Integrate Sonora
-          Upon Annexing Sonora, you can core the State
+      - Integrate Sonora
+            Upon Annexing Sonora, you can core the State
       
-      Move Capital
-          In 1879, you can move your capital to Sacramento, as was done in real life
+      - Move Capital
+            In 1879, you can move your capital to Sacramento, as was done in real life
           
-       Invest in Eruika's logging industry
-          Spend money to change Eurika's RGO from fishing to Timber, the region provided a larg amount of Timber in real life
+       - Invest in Eruika's logging industry
+             Spend money to change Eurika's RGO from fishing to Timber, the region provided a larg amount of Timber in real life
        
 - New events for California
 
-    Opening of the Iron Mountian Mine
-        In 1860 the Iron Mountian Mine opens in Sacramento, this was a massive mine in real life
+      - Opening of the Iron Mountian Mine
+            In 1860 the Iron Mountian Mine opens in Sacramento, this was a massive mine in real life
     
-    Opening of the Mount Diablo Coalfield
-        In 1850 the Mount Diablo Coalfield opens in San Fransisco, this was a massive doalfield in real life
+      - Opening of the Mount Diablo Coalfield
+            In 1850 the Mount Diablo Coalfield opens in San Fransisco, this was a massive doalfield in real life
         
-    Mariposa Gold Rush
-        Improved upon vanilla event, Paradox did not model in the Californian gold rush's immigration pull, this was so important Califonia skipped becoming a territory and immedietly became a State in real life because of this, no idea why Paradox did not model this
+      - Mariposa Gold Rush
+            Improved upon vanilla event, Paradox did not model in the Californian gold rush's immigration pull, this was so important Califonia skipped becoming a territory and immedietly became a State in real life because of this, no idea why Paradox did not model this
         
