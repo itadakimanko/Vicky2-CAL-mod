@@ -1,46 +1,11 @@
 political_decisions = {
-	CAL_Integrate_Hawaii = {
-		potential = {
-			tag = CAL
-			owns = 658
-			NOT = {
-				has_country_flag = CAL_Hawaii_Integrated
-			}
-		}
-		
-		allow = {
-			tag = CAL
-			owns = 658
-		}
-		
-		effect = {
-			658 = {
-				add_core = CAL
-				remove_core = HAW
-			}
-			
-		set_country_flag = CAL_Hawaii_Integrated
-		}
-		
-		ai_will do = {
-			factor = 1
-		}
-		
-	}
-	
 	CAL_Integrate_Sonora = {
 		potential = {
 			tag = CAL
-			owns = 2137
-			owns = 2138
-			owns = 2139
-			owns = 2140
-			owns = 2141
 			NOT = {
-				has_country_flag = CAL_Sonora_Integrated
+				has_country_flag = CAL_Integrate_Sonora
 			}
 		}
-		
 		allow = {
 			tag = CAL
 			owns = 2137
@@ -71,41 +36,78 @@ political_decisions = {
 				add_core = CAL
 				remove_core = MEX
 			}
-			
-		set_country_flag = CAL_Sonora_Integrated
+			set_country_flag = CAL_Integrate_Sonora
 		}
-		
-		ai_will do = {
-			factor = 1
-		}
-		
 	}
 	
-	Cal_Move_Capital = {
+	CAL_Move_Capital = {
 		potential = {
-			year = 1897
+			year = 1879
 			tag = CAL
-			owns = 86
+			owns = 86 # Sacramento
 			NOT = {
-				has_country_flag = CAL_Move_Capital
+				capital = 86 # Sacramento
 			}
 		}
 		
 		allow = {
-			year = 1897
-			tag = CAL
-			owns = 86
+			owns = 86 # Sacramento
 		}
 		
 		effect = {
-			capital = 86
-			}
-			
-		set_country_flag = CAL_Move_Capital
-		
-		ai_will do = {
-			factor = 1
+			capital = 86 # Sacramento
+			prestige = 1
 		}
-		
 	}
 	
+	CAL_Integrate_Hawaii = {
+		potential = {
+			tag = CAL
+			NOT = {
+				has_country_flag = CAL_Integrate_Hawaii
+			}
+		}
+		allow = {
+			tag = CAL
+			owns = 658
+		}
+		
+		effect = {
+			658 = {
+				add_core = CAL
+				remove_core = HAW
+			}
+			set_country_flag = CAL_Integrate_Hawaii
+		}
+	}
+	
+	CAL_Eureka_Logging_Camps = {
+		Potential = {
+			OR = (
+				tag = CAL
+				tag = USA
+				tag = MEX
+			}
+			owns = 85			# Eureka
+			not = {
+				has_country_flag = CAL_Eureka_Logging_Camps
+			}
+		}
+		allow = {
+			tag = CAL
+			owns = 85			# Eureka
+		}
+		
+		effect = {
+			85 = {			# Eureka
+				trade_goods = timber
+				treasury = -30000
+				add_province_modifier = {
+					name = the_homestead_act
+					duration = 1825
+				}
+			}
+			set_country_flag = CAL_Eureka_Logging_Camps
+		}
+	}
+}

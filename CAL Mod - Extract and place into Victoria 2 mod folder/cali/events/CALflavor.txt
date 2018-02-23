@@ -32,7 +32,7 @@ province_event = {
 	id = 1311602			# Mount Diablo Coalfield
 		
 	trigger = {
-		year = 1825
+		year = 1850
 		province_id = 84			# San Fransisco
 		not = { trade_goods = coal }
 	}
@@ -51,7 +51,34 @@ province_event = {
 		trade_goods = coal
 		add_province_modifier = {
 			name = the_homestead_act
-			duration = 3650
+			duration = 1825
 		}
 	}
+}
+
+province_event = {
+	
+	id = 1311603			# Mariposa gold rush - Because Paradox didn't give immigration bonuses to this specific gold RGO event for whatever reason
+	
+	trigger = {
+		province_id = 88			Mariposa
+		trade_goods = precious_metal
+		NOT = {
+			trade_goods = fruit
+			has_global_flag = CAL_Mariposa_Goldrush_Fix
+		}
+	}
+	
+	title = "EVTNAME1311603"
+	desc = "EVTDESC1311603"
+	picture = "goldrush"
+	
+	option = {
+		name = "EVTOPTA1311603"
+		add_province_modifier = {
+			name = gold_rush
+			duration = 2555			# 1848 to 1855
+		}
+		set_global_flag = CAL_Mariposa_Goldrush_Fix
+	}	
 }
