@@ -9,11 +9,17 @@ https://forum.paradoxplaza.com/forum/index.php?threads/empire-of-the-pacific-a-c
 
 Mod Change Log
 
+--------------------------------------------
+
 Misc Changes
+
+--------------------------------------------
 
 - USA & CSA name changed to United States of America and Confederate States of America respectivly, if you do NOT want this change, delete the file cali/localization/USA&CSA-Name-Fix.csv
 
 California Changes
+
+--------------------------------------------
 
 - New Colour for California (Credit to Flymonmon's base mod)
 
@@ -21,7 +27,7 @@ California Changes
 
 - Removed USA's cores on State of California, However, California can still apply for Statehood to grant USA cores on the state **TEST THIS** (Credit to Flymonmon's base mod)
 
-- New accepted culture for USA & CSA, Californian     # Check if Flymonmon already did this, if so credit him
+- New accepted culture for USA & CSA, Californian **Check if Flymonmon already did this, if so credit him**
 
 - New Ship names for Californian Navy (Credit to Flymonmon for some of the names)
 
